@@ -1,0 +1,37 @@
+.descr {
+    width: 800px;
+    min-height: 475px;
+    margin: 0 auto;
+    background-color: white;
+    p {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .img {
+        background: url('./img/MaskGroup.png') center (center / cover) no-repeat;
+    }
+    .row {
+        margin-top: 70px;
+        height: 425px;
+    }
+    .column02 {
+        margin-top: 25px;
+    }
+    .title {
+        text-align: center;
+        margin-top: none;
+        font-size: 24px;
+    }
+    .descr__line {
+        background: url('./img/Beanslogo.png') center;
+        margin-top: 25px;
+        height: 30px;
+        
+    }
+    .descr__bottonLine {
+        width: 240px;
+        height: 1px;
+        background-color: black;
+        margin: 57px auto;
+    }
+}

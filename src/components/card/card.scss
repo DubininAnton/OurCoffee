@@ -1,0 +1,29 @@
+.card {
+    width: 220px;
+    height: 260px;
+    box-shadow: 0px 0px 30px rgba(0,0,0, .5); 
+    border-radius: 3px;
+    .img {
+        background: url('./img//ImageCard.png');
+        width: 167px;
+        height: 115px;
+        margin-top: 37px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    &__name {
+        text-align: center;
+        font-weight:500;
+    }
+    &__country {
+        text-align: end;
+        margin-right: 25px;
+        font-weight:500;
+    }
+    &__price {
+        text-align: end;
+        margin-right: 25px;
+        font-weight:500;
+    }
+}

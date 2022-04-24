@@ -1,0 +1,82 @@
+.ourCoffee {
+    background-color: white;
+}
+h1 {
+    display:block;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.cards {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 260px 260px;
+    grid-template-columns: 220px 220px 220px;
+    grid-auto-rows: 260px;
+    row-gap: 74px;
+    column-gap: 60px;
+    margin-bottom: 60px;
+}
+
+
+    .about__descr {
+        display: flex;
+        width: 855px;
+        align-items: center;
+        justify-content: space-between;
+        height: 455px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        &_img {
+            background: url('./img/AboutImg.jpg')  center (center / cover) no-repeat;
+            width: 392px;
+            height: 355px;
+        }
+        &_text {
+            width: 418px;
+            height: 355px;
+        }
+        &_line {
+            background: url('./img/Beanslogo.png')  center (center / cover) no-repeat;
+            width: 200px;
+            height: 35px; 
+            margin: 0 auto;
+            margin-bottom: 13px;
+        }
+        &_title {
+            text-align: center;
+            margin-bottom: 21px;
+            font-size: 24px;
+        }
+        &_country {
+            font-size: 14px;
+            margin-bottom: 16px;
+            span {
+                font-weight: 700;
+            }
+        }
+        &_descr {
+            font-size: 14px;
+            margin-bottom: 16px;
+            span {
+                font-weight: 700;
+            }
+        }
+        &_price {
+            font-size: 14px;
+            font-weight: 700;
+            span {
+                font-size: 26px;
+                font-weight: 900;
+            }
+        }
+
+    }
+
+
